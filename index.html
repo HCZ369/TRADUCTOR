@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Traductor</title>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<h1>Traductor</h1>
+		<div class="languages-container">
+			<label for="translateFrom">Traducir del:</label>
+			<select name="" id="translateFrom">
+				<option value="es">Español</option>
+			</select>
+
+			<label for="translateTo">al:</label>
+			<select name="" id="translateTo">
+				<option value="es">Español</option>
+			</select>
+		</div>
+		<div class="result-container">
+			<div class="first-section">
+				<label for="inputTranslate">Ingresa el texto a traducir</label>
+				<textarea name="" id="inputTranslate" cols="25" rows="10"></textarea>
+			</div>
+
+			<button id="translate">Traductor</button>
+
+			<div class="second-section">
+				<label for="outputTranslate">Resultado:</label>
+				<textarea name="" id="outputTranslate" cols="25" rows="10"></textarea>
+			</div>
+		</div>
+		<footer>
+			Coded by
+			<a href="https://hugocarreras-portfolio.netlify.app" target="_blank">Hugo Carreras</a>.
+		</footer>
+		<script src="./main.js"></script>
+	</body>
+</html>
